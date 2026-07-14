@@ -5,3 +5,4 @@ build/
 collections/*
 !collections/.gitkeep
 markitdown/
+!src/markitdown

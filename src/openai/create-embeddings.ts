@@ -1,5 +1,5 @@
 import { CreateEmbeddingResponse } from 'openai/resources';
-import { split } from '../token/split';
+import { split } from '../util/split';
 import { embeddingsClient } from './embeddings-client';
 
 type CreateEmbeddingResponseWithChunks = CreateEmbeddingResponse & {
