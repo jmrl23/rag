@@ -1,0 +1,23 @@
+{
+  "name": "rag",
+  "version": "1.0.0",
+  "main": "build/mnain.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --env-file-if-exists .env build/main.js"
+  },
+  "devDependencies": {
+    "@tsconfig/bases": "^1.0.26",
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.2.2",
+    "@langchain/textsplitters": "^1.0.1",
+    "@qdrant/js-client-rest": "^1.18.0",
+    "js-tiktoken": "^1.0.21",
+    "openai": "^6.46.0",
+    "uuid": "^14.0.1"
+  }
+}
